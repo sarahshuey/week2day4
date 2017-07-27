@@ -127,9 +127,9 @@ function union() {
   let same = [];
   for (var i = 0; i < first.length; i++) {
     if (first[i]===second[i]) {
-      same.push(first[i]===second[i])
+      same.push(first[i])
     }
-    return same
   }
   // Your answer here:
+  return same
 }
